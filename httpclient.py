@@ -19,9 +19,10 @@
 # The point is to understand what you have to send and get experience with it
 
 #References
+# https://www.w3schools.com/python/ref_string_split.asp
+# https://docs.python.org/3/library/urllib.parse.html
 # https://developer.mozilla.org/en-US/docs/Glossary/Port
-#
-#
+# 
 #
 
 import sys
