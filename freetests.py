@@ -178,6 +178,7 @@ class TestHTTPClient(unittest.TestCase):
         path = "abcdef/gjkd/dsadas"
         url = "http://%s:%d/%s" % (BASEHOST,BASEPORT, path)
         req = http.GET( url )
+        # print("Response Body === " + req.body)
         self.assertTrue(req != None, "None Returned!")
         self.assertTrue(req.code == 200)
         self.assertTrue(req.body.find(path)>=0, "Data: [%s] " % req.body)
